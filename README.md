@@ -6,6 +6,8 @@ This app is a project planner which allows to plan and manage new project.
 
 ## Stack
 
+Vue.js
+
 ## Launch
 
 ## Project setup

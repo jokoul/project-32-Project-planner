@@ -1,8 +1,15 @@
 <template>
   <div class="home">
+    <!--$event refers to the "by" data passed through $emit custom event-->
+    <FilterNav @filterChange="current = $event" :current="current" />
+    <!--Conditional showing with v-if-->
     <div v-if="projects.length">
       <div v-for="project in projects" :key="project.id">
-        <SingleProject :project="project" @delete="handleDelete" />
+        <SingleProject
+          :project="project"
+          @delete="handleDelete"
+          @complete="handleComplete"
+        />
       </div>
     </div>
   </div>
@@ -19,6 +26,7 @@ export default {
   data() {
     return {
       projects: [],
+      current: "all",
     };
   },
   mounted() {
@@ -32,6 +40,13 @@ export default {
       this.projects = this.projects.filter((project) => {
         return project.id !== id; //id is the second arguments of $emit method who specified custom event in child compoenent
       });
+    },
+    handleComplete(id) {
+      let p = this.projects.find((project) => {
+        return project.id === id;
+      });
+      //we find the first project wich comply the find condition
+      p.complete = !p.complete;
     },
   },
 };
