@@ -32,7 +32,7 @@ export default {
     };
   },
   mounted() {
-    fetch("https://project-planner-joan.herokuapp.com/projects") //proxy : http://localhost:3000.
+    fetch("https://project-planner-joan.herokuapp.com/projects") //proxy : http://localhost:3000
       .then((res) => res.json())
       .then((data) => (this.projects = data))
       .catch((err) => console.log(err.message));
