@@ -2,7 +2,7 @@
 
 ## Description
 
-This app is a project planner which allows to plan and manage new project. It implements CRUD operations and I use router-link to manage navigation. Custom events made with $emit,props, methods,data properties and computed data help me to set the logic of my app.
+This app is a project planner which allows to plan and manage new project. I use Json Server to simulate an API in my app. It implements CRUD operations and I use router-link to manage navigation. Custom events made with $emit,props, methods,data properties and computed data help me to set the logic of my app.
 
 ## Stack
 
