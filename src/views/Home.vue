@@ -32,7 +32,7 @@ export default {
     };
   },
   mounted() {
-    fetch("https://project-planner-joan.herokuapp.com/projects")
+    fetch("https://project-planner-json-server.herokuapp.com/projects")
       .then((res) => res.json())
       .then((data) => (this.projects = data))
       .catch((err) => console.log(err.message));
