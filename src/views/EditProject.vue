@@ -19,7 +19,7 @@ export default {
       title: "",
       details: "",
       complete: false,
-      uri: "https://project-planner-joan.herokuapp.com/projects/" + this.id, //proxy : http://localhost:3000
+      uri: "https://project-planner-joan.herokuapp.com/projects/" + this.id, //proxy : http://localhost:3000.
     };
   },
   mounted() {

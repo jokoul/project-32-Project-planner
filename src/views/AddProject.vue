@@ -25,7 +25,7 @@ export default {
       };
       //we send our object to the db.json
       fetch("https://project-planner-joan.herokuapp.com/projects", {
-        //proxy : http://localhost:3000
+        //proxy : http://localhost:3000.
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(project),
