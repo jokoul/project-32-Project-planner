@@ -10,6 +10,8 @@ Vue.js
 
 ## Launch
 
+https://fabulous-genie-3b1b9c.netlify.app/
+
 ## Project setup
 
 ```
