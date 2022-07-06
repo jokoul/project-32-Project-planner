@@ -19,7 +19,7 @@ export default {
       title: "",
       details: "",
       complete: false,
-      uri: "http://localhost:3000/projects/" + this.id,
+      uri: "https://fabulous-genie-3b1b9c.netlify.app//projects/" + this.id, //http://localhost:3000
     };
   },
   mounted() {
