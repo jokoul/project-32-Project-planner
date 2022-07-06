@@ -32,7 +32,7 @@ export default {
     };
   },
   mounted() {
-    fetch("https://fabulous-genie-3b1b9c.netlify.app//projects") //http://localhost:3000
+    fetch("https://fabulous-genie-3b1b9c.netlify.app/projects")
       .then((res) => res.json())
       .then((data) => (this.projects = data))
       .catch((err) => console.log(err.message));
