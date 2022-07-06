@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Create new homepage banner",
       "details": "Lorem ipsum",
-      "complete": false
+      "complete": true
     },
     {
       "id": 2,
@@ -13,22 +13,22 @@
       "complete": false
     },
     {
-      "title": "new website test update without complete",
-      "details": "blabla blabla test update content without complete",
-      "id": 3,
-      "complete": false
-    },
-    {
       "title": "design new website ",
       "details": "    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta dolor fugit consequatur aliquam pariatur. Quidem voluptates illo quasi optio? Quae perferendis suscipit deleniti id eaque accusantium in mollitia maiores atque?\n",
-      "complete": false,
+      "complete": true,
       "id": 4
     },
     {
       "title": "project 5 update",
-      "details": "project 5 content update",
+      "details": "content of project 5",
       "complete": false,
       "id": 5
+    },
+    {
+      "title": "create new brand",
+      "details": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta dolor fugit consequatur aliquam pariatur. Quidem voluptates illo quasi optio? Quae perferendis suscipit deleniti id eaque accusantium in mollitia maiores atque?",
+      "complete": true,
+      "id": 6
     }
   ]
 }

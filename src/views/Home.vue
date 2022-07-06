@@ -4,7 +4,7 @@
     <FilterNav @filterChange="current = $event" :current="current" />
     <!--Conditional showing with v-if-->
     <div v-if="projects.length">
-      <div v-for="project in projects" :key="project.id">
+      <div v-for="project in filteredProjects" :key="project.id">
         <SingleProject
           :project="project"
           @delete="handleDelete"
@@ -17,11 +17,13 @@
 
 <script>
 import SingleProject from "../components/SingleProject.vue";
+import FilterNav from "../components/FilterNav.vue";
 
 export default {
   name: "Home",
   components: {
     SingleProject,
+    FilterNav,
   },
   data() {
     return {
@@ -47,6 +49,17 @@ export default {
       });
       //we find the first project wich comply the find condition
       p.complete = !p.complete;
+    },
+  },
+  computed: {
+    filteredProjects() {
+      if (this.current === "completed") {
+        return this.projects.filter((project) => project.complete === true);
+      }
+      if (this.current === "ongoing") {
+        return this.projects.filter((project) => project.complete === false);
+      }
+      return this.projects;
     },
   },
 };
