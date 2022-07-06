@@ -28,7 +28,7 @@ h1 {
 .main-nav a {
   display: inline-block;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 5px 10px;
   color: #999;
   font-size: 18px;
   font-weight: 700;
