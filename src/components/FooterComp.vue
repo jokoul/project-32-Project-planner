@@ -38,7 +38,7 @@ export default {};
 <style>
 /*FOOTER STYLE */
 .footer {
-  height: 10rem;
+  height: 12rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
