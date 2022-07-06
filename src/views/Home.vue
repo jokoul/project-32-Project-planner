@@ -32,7 +32,7 @@ export default {
     };
   },
   mounted() {
-    fetch("https://fabulous-genie-3b1b9c.netlify.app/projects")
+    fetch("https://project-planner-joan.herokuapp.com//projects")
       .then((res) => res.json())
       .then((data) => (this.projects = data))
       .catch((err) => console.log(err.message));

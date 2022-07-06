@@ -24,7 +24,7 @@ export default {
         complete: false,
       };
       //we send our object to the db.json
-      fetch("https://fabulous-genie-3b1b9c.netlify.app/projects", {
+      fetch("https://project-planner-joan.herokuapp.com//projects", {
         //http://localhost:3000
         method: "POST",
         headers: { "Content-Type": "application/json" },

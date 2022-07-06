@@ -19,7 +19,7 @@ export default {
       title: "",
       details: "",
       complete: false,
-      uri: "https://fabulous-genie-3b1b9c.netlify.app/projects/" + this.id, //http://localhost:3000
+      uri: "https://project-planner-joan.herokuapp.com//projects/" + this.id, //http://localhost:3000
     };
   },
   mounted() {
