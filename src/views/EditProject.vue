@@ -20,7 +20,7 @@ export default {
       details: "",
       complete: false,
       uri:
-        "https://project-planner-json-server.herokuapp.com/projects/" + this.id, // http://localhost:3000
+        "https://project-planner-json-server.herokuapp.com/projects/" + this.id, // http://localhost:3000 https://project-planner-json-server.herokuapp.com
     };
   },
   mounted() {

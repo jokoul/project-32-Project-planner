@@ -27,13 +27,13 @@
     {
       "title": "Create a landpage",
       "details": "Lorem ipsum dolor sit amet. Rem possimus deserunt ut molestias explicabo qui nihil praesentium ad unde provident et minima dolor. Aut asperiores similique ut porro facilis 33 numquam omnis ad nobis galisum ut quas culpa qui quasi temporibus rem nesciunt aperiam. Eos eveniet magni et voluptate amet 33 laborum voluptas sed dolor voluptatem sed repudiandae velit et dolorem magni? Ut nisi galisum qui voluptatum blanditiis nam veniam nemo sed nostrum quia est inventore asperiores.",
-      "complete": false,
+      "complete": true,
       "id": 7
     },
     {
       "title": "test update",
       "details": "stapq jgepisf",
-      "complete": true,
+      "complete": false,
       "id": 8
     }
   ]

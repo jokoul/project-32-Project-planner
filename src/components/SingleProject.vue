@@ -29,7 +29,9 @@ export default {
   data() {
     return {
       showDetails: false,
-      uri: "http://localhost:3000/projects/" + this.project.id,
+      uri:
+        "https://project-planner-json-server.herokuapp.com/projects/" +
+        this.project.id, //http://localhost:3000 https://project-planner-json-server.herokuapp.com
     };
   },
   methods: {
