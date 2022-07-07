@@ -5,10 +5,16 @@
       <h3 @click="showDetails = !showDetails">{{ project.title }}</h3>
       <div class="icons">
         <router-link :to="{ name: 'EditProject', params: { id: project.id } }">
-          <span class="material-icons">edit</span>
+          <button class="crudBtn">
+            <span class="material-icons">edit</span>
+          </button>
         </router-link>
-        <span @click="deleteProject" class="material-icons">delete</span>
-        <span @click="toggleComplete" class="material-icons tick">done</span>
+        <button @click="deleteProject" class="crudBtn">
+          <span class="material-icons">delete</span>
+        </button>
+        <button @click="toggleComplete" class="crudBtn">
+          <span class="material-icons tick">done</span>
+        </button>
       </div>
     </div>
     <div v-if="showDetails" class="details">
@@ -83,5 +89,9 @@ h3:hover {
 .project.complete .tick {
   color: #00ce89;
   font-weight: 900;
+}
+.crudBtn {
+  background: none;
+  border: none;
 }
 </style>

@@ -24,8 +24,8 @@ export default {
         complete: false,
       };
       //we send our object to the db.json
-      fetch("https://project-planner-json-server.herokuapp.com/projects", {
-        //http://localhost:3000
+      fetch("http://localhost:3000/projects", {
+        // https://project-planner-json-server.herokuapp.com
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(project),

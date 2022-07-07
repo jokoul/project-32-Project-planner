@@ -32,7 +32,7 @@ export default {
     };
   },
   mounted() {
-    fetch("https://project-planner-json-server.herokuapp.com/projects")
+    fetch("http://localhost:3000/projects") //https://project-planner-json-server.herokuapp.com
       .then((res) => res.json())
       .then((data) => (this.projects = data))
       .catch((err) => console.log(err.message));
