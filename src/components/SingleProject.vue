@@ -76,7 +76,9 @@ h3:hover {
   align-items: center;
   flex-wrap: nowrap;
 }
-
+.icons {
+  min-width: 40%;
+}
 .material-icons {
   font-size: 24px;
   margin-left: 10px;
