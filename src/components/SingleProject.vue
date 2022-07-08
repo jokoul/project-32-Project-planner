@@ -74,7 +74,9 @@ h3:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
 }
+
 .material-icons {
   font-size: 24px;
   margin-left: 10px;
